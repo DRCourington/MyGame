@@ -1,0 +1,12 @@
+# build artifacts
+build/
+
+# editor files
+*.swp
+*.swo
+*.tmp
+
+# binaries
+*.o
+*.out
+
