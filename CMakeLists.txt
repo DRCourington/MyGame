@@ -9,6 +9,7 @@ find_package(SFML 3 REQUIRED COMPONENTS Graphics Window System Audio)
 
 add_executable(MyGame
     src/main.cpp
+    src/Engine.cpp
 )
 
 add_custom_command(TARGET MyGame POST_BUILD

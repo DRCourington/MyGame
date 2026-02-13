@@ -10,7 +10,6 @@ public:
   explicit MusicPlayer(std::filesystem::path basePath)
       : m_basePath(std::move(basePath)) {}
 
-  // Throws std::runtime_error on failure
   void play(const std::filesystem::path &relativePath, bool loop = true) {
     const auto fullPath = m_basePath / relativePath;
 
